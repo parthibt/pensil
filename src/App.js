@@ -1,10 +1,8 @@
 import React from "react";
-import Heder from './compoents/Heder';
+import Header from "./compoents/Header";
 
 export default function App(){
     return(
-       <div>
-       <Heder/>
-       </div>
+        <Header/>
     )
 }
