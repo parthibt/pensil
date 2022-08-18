@@ -1,0 +1,34 @@
+
+.hero{
+    height: 80px;
+    box-shadow: 3px 1px 8px rgba(128, 128, 128, 0.411);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    padding: 0em 1em 0em 1em;
+}
+.logo_img{
+    cursor: pointer;
+}
+.logo_img:hover{
+    opacity: 0.8;
+}
+.link{
+    text-decoration: none;
+    list-style: 0;
+    padding: 0rem 0.8rem 0rem 0.8rem;
+    color: rgba(48, 43, 43, 0.849);
+    font-weight: bold;
+}
+.link:hover{
+    opacity: 0.8;
+}
+.link i{
+    opacity: 0.5;
+}
+.link_hover{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
