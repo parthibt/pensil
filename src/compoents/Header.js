@@ -7,15 +7,22 @@ export default function Header(){
             <img className="logo_img" src={images} alt='' />
             </div>
             <div className="hero_button">
-                <a href="hero" className="link">Use case <i class="fa-solid fa-angle-down"></i>
+                <a href="hero" className="link link_up">Use case <i class="fa-solid fa-angle-down"></i>
                     <div className="link_hover">
-                        <a href="#">Cohort Based courses</a>
-                        <a href="#">Startup or Brand Community</a>
-                        <a href="#">Mentors or Coaches</a>
+                        <a href="#" className="hover_link">Cohort Based courses</a>
+                        <a href="#" className="hover_link">Startup or Brand Community</a>
+                        <a href="#" className="hover_link">Mentors or Coaches</a>
                     </div>
                 </a>
-                <a href="hero" className="link">Resources <i class="fa-solid fa-angle-down"></i></a>
-                <a href="hero" className="link">Pricing <i class="fa-solid fa-angle-down"></i></a>
+                <a href="hero" className="link link_up">Resources <i class="fa-solid fa-angle-down"></i>
+                    <div className="link_hover">
+                        <a href="#" className="hover_link">Integration</a>
+                        <a href="#" className="hover_link">Blog</a>
+                        <a href="#" className="hover_link">What's New</a>
+                    </div>
+                
+                </a>
+                <a href="hero" className="link link_up">Pricing</a>
                 <a href="hero" className="link btn_login">Log In</a>
                 <a href="hero" className=" link btn_try">Try for Free</a>
 
