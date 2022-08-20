@@ -1,33 +1,44 @@
 import React from "react";
 import images from '../images/pensil_logo.svg'
+
+
 export default function Header(){
     return(
-        <div className="hero">
-            <div className="logo">
-            <img className="logo_img" src={images} alt='' />
-            </div>
-            <div className="hero_button">
-                <a href="hero" className="link link_up">Use case <i class="fa-solid fa-angle-down"></i>
-                    <div className="link_hover">
-                        <a href="#" className="hover_link">Cohort Based courses</a>
-                        <a href="#" className="hover_link">Startup or Brand Community</a>
-                        <a href="#" className="hover_link">Mentors or Coaches</a>
+        <header className="header">
+            <nav className="nav">
+                <img src={images} alt=''/>
+                <i class="fa-solid fa-bars fa-2x"></i>
+                    <ul className="list">
+                        <li>
+                            <a href="#" className="link">Use case</a>
+                                <ul className="inside_list">
+                                    <li><a href="#">Cohort Based Courses</a></li>
+                                    <li><a href="#">Startup or Brand community</a></li>
+                                    <li><a href="#">Mentors or Coaches</a></li>
+                                </ul>
+                        </li>
+                    <li>
+                        <a href="#" className="link">Resources</a>
+                            <ul className="inside_list">
+                                <li><a href="#">Integration</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">What's New</a></li>
+                            </ul>
+                    </li>
+                    <li>
+                        <a href="#" className="link">Princing</a>
+                    </li>
+                    <div className="btn">
+                        <li>
+                            <a href="#" className="btn_login">Log Ing</a>
+                            </li>
+                        <li>
+                            <a href="#" className="btn_login">Free to try</a>
+                        </li>
                     </div>
-                </a>
-                <a href="hero" className="link link_up">Resources <i class="fa-solid fa-angle-down"></i>
-                    <div className="link_hover">
-                        <a href="#" className="hover_link">Integration</a>
-                        <a href="#" className="hover_link">Blog</a>
-                        <a href="#" className="hover_link">What's New</a>
-                    </div>
-                
-                </a>
-                <a href="hero" className="link link_up">Pricing</a>
-                <a href="hero" className="link btn_login">Log In</a>
-                <a href="hero" className=" link btn_try">Try for Free</a>
-
-            </div>
-        </div>
+                </ul>
+            </nav>
+            
+        </header>
     )
-
 }

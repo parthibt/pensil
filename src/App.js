@@ -3,6 +3,9 @@ import Header from "./compoents/Header";
 
 export default function App(){
     return(
-        <Header/>
+        <main className="main">
+            <Header/>
+        </main>
+        
     )
 }
