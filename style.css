@@ -532,6 +532,12 @@ ul{
     border-radius: 50%;
 }
 
+
+@media (max-width:480px){
+    .cards_contents{
+        grid-template-columns: repeat(1,auto);
+    }
+}
 @media (min-width:960px){
     .cards_contents{
         grid-template-columns: repeat(3,auto);
